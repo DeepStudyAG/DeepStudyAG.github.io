@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Sleeping Beauty
-date: 2016-05-28 15:46
+title: Test
+date: 2018-01-04 17:24:30 +0900
 comments: true
 external-url:
-categories: Mathematics
+categories: DeepLearning
 ---
 
 $$ x\binom{K}{x} = \frac{xK!}{x!(K-x)!} = \frac{K!}{(x-1)!(K-x)!} = \frac{K(K-1)!}{(x-1)!((K-1) - (k-1))!} = K\binom{K-1}{x-1} $$
