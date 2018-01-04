@@ -1,0 +1,25 @@
+---
+layout: post
+title: Sleeping Beauty
+date: 2016-05-28 15:46
+comments: true
+external-url:
+categories: Mathematics
+---
+
+$$ x\binom{K}{x} = \frac{xK!}{x!(K-x)!} = \frac{K!}{(x-1)!(K-x)!} = \frac{K(K-1)!}{(x-1)!((K-1) - (k-1))!} = K\binom{K-1}{x-1} $$
+
+<div class="visualization">
+  <span id="hitmap"></span>
+  <div class="h-vis">
+    <span id="statistics">
+      Number of points <span id="iterations">0</span><br>
+      Ratio is <span id="ratio">00.00</span>% (real 78.54%)<br>
+      Estimated area is <span id="estimated-area">0.000</span> (real 3.141)<br>
+      Outer 0.2 ring area is <span id="outer-ring">00</span>% (real 36%)<br>
+    </span>
+    <span id="histogram"></span>
+  </div>
+</div>
+
+Click to add <a href="javascript:simulate(100)">100</a>, <a href="javascript:simulate(1000)">1000</a>, or <a href="javascript:simulate(10000)">10000</a> points, <a href="javascript:startAnimation()">start</a> or <a href="javascript:stopAnimation()">stop</a> the animation, or <a href="javascript:reset()">reset</a> the simulation.
